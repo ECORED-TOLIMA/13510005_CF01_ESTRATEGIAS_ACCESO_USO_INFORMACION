@@ -3,7 +3,7 @@ export default {
     Name: 'Fundamentos para la búsqueda y organización de la información',
     Description:
       'En este contenido se desarrolla un proceso clave de la formación, en el cual se fortalece la comprensión de la ética empresarial, la sostenibilidad y la toma de decisiones responsables en el mercadeo, aplicándolas en actividades prácticas. Estos aprendizajes permiten diseñar estrategias conscientes y con impacto positivo.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
