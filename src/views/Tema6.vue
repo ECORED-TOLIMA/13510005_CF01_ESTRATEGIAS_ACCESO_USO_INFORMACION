@@ -185,8 +185,6 @@
       .col-lg-6.col-md-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema6/img-11.png' alt="Imagen decorativa")
 
-  
-
 </template>
 
 <script>

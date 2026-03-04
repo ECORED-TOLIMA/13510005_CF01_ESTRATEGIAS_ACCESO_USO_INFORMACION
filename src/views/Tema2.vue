@@ -23,7 +23,7 @@
                 TarjetaAudio.color-secundario.bg-color-white.mb-3(
                   texto="Pódcast"
                   tiempo
-                  :audio="require('../assets/curso/podcast/podcast1.mp3')"
+                  :audio="require('../assets/curso/podcast/Podcast_Instruccional_CF01_13510005_Fuentes de información.wav')"
                 )
       .col-lg-4.col-md-6.col-8.order-1.mb-lg-0.mb-4
         figure
@@ -96,7 +96,7 @@
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Tabla 3.
-      span  #[i Fuente según su origen técnico]
+      span Fuente según su origen técnico
     .tabla-a.color-acento-contenido.mb-4
       table
         thead

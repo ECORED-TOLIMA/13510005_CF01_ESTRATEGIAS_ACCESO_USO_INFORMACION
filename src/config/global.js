@@ -106,11 +106,6 @@ export default {
         titulo: 'Glosario',
       },
       {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
@@ -118,7 +113,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CFA_01_13510005_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -132,14 +127,6 @@ export default {
       },
     ],
   },
-  complementario: [
-    {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
-    },
-  ],
   glosario: [
     {
       termino: 'Activo de información',
@@ -255,7 +242,7 @@ export default {
         {
           nombre: 'Norma Buenaventura Gisela Alvis',
           cargo: 'Asesora pedagógica',
-          centro: 'Centro de Industria y la Construcción -Regional Tolima',
+          centro: 'Centro de Industria y la Construcción - Regional Tolima',
         },
         {
           nombre: 'Solanlly Sánchez Melo',

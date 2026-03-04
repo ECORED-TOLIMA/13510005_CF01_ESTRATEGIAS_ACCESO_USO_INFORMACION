@@ -49,7 +49,7 @@
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 5.
-          span  #[i El puente lingüístico ]
+          span El puente lingüístico
         .tabla-a.color-acento-contenido.mb-4
           table
             thead
@@ -106,7 +106,7 @@
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
           h5 Figura 5.
-          span <em>Lenguaje natural y lenguaje controlado</em>  
+          span Lenguaje natural y lenguaje controlado  
 
       .row.justify-content-center
         .col-10

@@ -609,7 +609,8 @@ export default {
             },
             {
               id: 'd',
-              texto: 'Para buscar opiniones personales en blogs de tendencias',
+              texto:
+                'Para buscar opiniones personales en <em>blogs</em> de tendencias',
               esCorrecta: false,
             },
           ],

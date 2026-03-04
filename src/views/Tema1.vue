@@ -18,7 +18,7 @@
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
           h5 Figura 1.
-          span <em>Características de la información útil</em>  
+          span Características de la información útil  
 
       .row.justify-content-center
         .col-10
@@ -101,7 +101,7 @@
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Tabla 1.
-      span  #[i Ruido informativo vs. Activos de información]
+      span Ruido informativo vs. Activos de información
     .tabla-a.color-acento-contenido.mb-5
       table
         thead
@@ -139,7 +139,7 @@
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Tabla 2.
-      span  #[i Atributos avanzados de la información]
+      span Atributos avanzados de la información
     .tabla-a.color-acento-contenido.mb-5
       table
         thead
@@ -169,7 +169,7 @@
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
           h5 Figura 2.
-          span <em>Del dato a la información</em>  
+          span Del dato a la información  
 
       .row.justify-content-center
         .col-10
@@ -331,7 +331,7 @@
         p.mb-4 Existen diferentes rutas para la búsqueda de información, destacándose entre todas ellas la de embudo, la cual se explica a continuación:
         .titulo-sexto.color-acento-contenido
           h5 Figura 3.
-          span <em>Estrategia “embudo”: comenzar amplio y terminar preciso</em>  
+          span Estrategia “embudo”: comenzar amplio y terminar preciso  
 
       .row.justify-content-center
         .col-10

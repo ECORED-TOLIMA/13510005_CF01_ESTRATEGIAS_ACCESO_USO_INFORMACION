@@ -180,7 +180,7 @@
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
           h5 Figura 4.
-          span <em>Operadores</em>  
+          span Operadores  
 
       .row.justify-content-center
         .col-10
@@ -229,7 +229,7 @@
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 4.
-          span  #[i Resumen de aplicación de operadores]
+          span Resumen de aplicación de operadores
         .tabla-a.color-acento-contenido.mb-4
           table
             thead
@@ -262,8 +262,7 @@
                 td.text-center NEAR
                 td Proximidad relativa entre términos.
                 td Aumenta la relevancia semántica.
-
-
+                
 </template>
 
 <script>

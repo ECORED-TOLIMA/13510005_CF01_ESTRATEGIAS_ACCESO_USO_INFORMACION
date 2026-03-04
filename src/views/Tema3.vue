@@ -25,7 +25,7 @@
           img(src='@/assets/curso/tema3/img-02.png', alt='Imagen decorativa')
       .col-lg-6       
         LineaTiempoD.color-acento-botones
-          .row.justify-content-center(numero="1" titulo="Praesent luctus")
+          .row.justify-content-center(numero="1" titulo="Búsqueda sintáctica")
             .col-12.order-lg-2.order-3
               p.mb-0 Se basa en la coincidencia exacta de caracteres o palabras clave (#[i keyword matching]). Es útil para encontrar frases específicas, pero puede omitir sinónimos valiosos.
           .row.justify-content-center(numero="2" titulo="Búsqueda semántica")
@@ -275,7 +275,7 @@
           .col-lg-auto.col-9.titulo01(style="z-index:1")
             .p-1
               h3.mb-0.ms-3 F. Búsqueda iterativa y refinamiento (Método del embudo)
-        p.mb-4 La búsqueda iterativa concibe la recuperación de información como un proceso progresivo de selección y evaluación de fuentes, en el que cada etapa mejora la calidad de los resultados obtenidos 
+        p.mb-4 La búsqueda iterativa concibe la recuperación de información como un proceso progresivo de selección y evaluación de fuentes, en el que cada etapa mejora la calidad de los resultados obtenidos. 
         .cajon.cajon.C01.color-primario.p-4.mb-4
           p.mb-0 #[b Ejemplo:] a partir de un artículo clave sobre consumo digital, se identifican términos técnicos para ampliar y refinar la búsqueda de información especializada, encontrando: #[b Experiencia del usuario”, “decisión de compra online”, “analítica de comportamiento”]
       .col-lg-4.col-md-6.col-8.order-1.mb-lg-0.mb-4
@@ -303,72 +303,6 @@
           .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#FED2C7;")
             h4.text-center.mt-5(style="color:#12263F") Precisar
             p.text-center.mb-0(style="color:#12263F") Construir ecuaciones de búsqueda de alta precisión combinando operadores booleanos y filtros de dominio.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </template>
 

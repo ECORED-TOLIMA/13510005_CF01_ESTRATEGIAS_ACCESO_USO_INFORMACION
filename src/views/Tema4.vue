@@ -55,7 +55,7 @@
             figure.d-none.d-xl-block
               img(src='@/assets/curso/tema4/img-05.svg', alt='').m-auto
           .col-xl
-            h4 Recomendación técnica: 
+            h4 Recomendación técnica 
             p.mb-0 Utilizar los motores de uso general solo para reconocer el panorama general e identificar conceptos iniciales.
 
     .row.justify-content-center.mb-4(data-aos="fade-left")
