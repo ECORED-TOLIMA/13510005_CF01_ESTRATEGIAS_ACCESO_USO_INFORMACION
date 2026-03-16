@@ -5,12 +5,12 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
-      h1 Información: concepto y características de la información
+      h1 Información: concepto, procedencia, características
 
     .row.justify-content-center.mb-4
       .col-12(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/tema1/img-01.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema1/img-01.png', alt='')
 
     p.mb-4 La información es un conjunto de datos con significado: se interpreta en un contexto y sirve para comprender, decidir o actuar. En alfabetización informacional, no basta con “encontrar algo”: se requiere entender, verificar y usar con propósito. Para que la información sea útil debe cumplir con unos atributos o características:
 
@@ -50,7 +50,7 @@
           .crd_hover_txt--body
             h5.t1.mb-3 Mala información
             h5.t2.mb-2 Mala información
-            p Ideo viral sin autor ni fuentes.
+            p Video viral sin autor ni fuentes.
       .col-xl-4.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")(@mouseover="mostrarIndicador = true")
           .indicador--hover(v-if="mostrarIndicador")
@@ -68,7 +68,7 @@
           img(src='@/assets/curso/tema1/icono.svg', style="width: 45px" ,alt='').m-auto
       .col-lg-auto.col-9.titulo01(style="z-index:1")
         .p-1
-          h3.mb-0.ms-3 La Infodemia y la Integridad de la Información
+          h3.mb-0.ms-3 La infodemia y la integridad de la información
 
     p.mb-4 El ecosistema digital actual presenta riesgos como el "ruido informativo" y la desinformación. Como expertos, se debe diferenciar técnicamente los tipos de fallos en la información, teniendo en cuenta lo siguiente:
 
@@ -79,21 +79,21 @@
             .row.justify-content-center.mb-3
               .col-lg-6.col-6
                 figure
-                  img(src='@/assets/curso/tema1/img-05.svg', alt='Imagen decorativa')
+                  img(src='@/assets/curso/tema1/img-05.svg', alt='')
             h4.text-center.mb-4 #[i Misinformation] (Información errónea)
             p.mb-0 Información falsa, pero que no tiene la intención de causar daño (ej. un dato mal copiado en un reporte manual).
           .col-xl.col-md-6.tarjeta.color-secundario.p-4(style="background-color:#E2E2E2")
             .row.justify-content-center.mb-3
               .col-lg-6.col-6
                 figure
-                  img(src='@/assets/curso/tema1/img-06.svg', alt='Imagen decorativa')
+                  img(src='@/assets/curso/tema1/img-06.svg', alt='')
             h4.text-center.mb-4 #[i Disinformation] (Desinformación)
             p.mb-0 Información creada deliberadamente para engañar. Suele carecer de autoridad, perfiles profesionales claros o respaldo de evidencia (ej. una noticia fabricada para manipular la opinión pública).
           .col-xl.col-md-6.tarjeta.color-secundario.p-4(style="background-color:#FED2C7")
             .row.justify-content-center.mb-3
               .col-lg-6.col-6
                 figure
-                  img(src='@/assets/curso/tema1/img-07.svg', alt='Imagen decorativa')
+                  img(src='@/assets/curso/tema1/img-07.svg', alt='')
             h4.text-center.mb-4 #[i Malinformation] (Información maliciosa)
             p.mb-0 Información basada en la realidad, pero utilizada para causar daño o sesgar la opinión pública (ej. filtrar datos privados de una institución).
 
@@ -101,14 +101,14 @@
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Tabla 1.
-      span Ruido informativo vs. Activos de información
+      span Ruido informativo vs. activos de información
     .tabla-a.color-acento-contenido.mb-5
       table
         thead
           tr(data-aos="fade-right")
             th(style="width: 10%; background-color: #C1E4DD;") Atributo
-            th(style="width: 45%; background-color: #C1E4DD;") Fuente A: ruido Informativo (No confiable)
-            th(style="width: 45%; background-color: #C1E4DD;") Fuente B: activo de Información (Confiable)
+            th(style="width: 45%; background-color: #C1E4DD;") Fuente A: ruido informativo (no confiable)
+            th(style="width: 45%; background-color: #C1E4DD;") Fuente B: activo de información (confiable)
         tbody
           tr(data-aos="fade-right")
             td.text-center(style="background-color: #F6F6F6;") #[b Origen]
@@ -151,7 +151,7 @@
           tr(data-aos="fade-right")
             td.text-center(style="background-color: #F6F6F6;") Integridad
             td(style="background-color: #F6F6F6;") Garantía de que la información permanece completa y sin alteraciones no autorizadas.
-            td(style="background-color: #F6F6F6;") Refuerza la Confiabilidad y el uso de entornos seguros.
+            td(style="background-color: #F6F6F6;") Refuerza la confiabilidad y el uso de entornos seguros.
           tr(data-aos="fade-right")
             td.text-center Accesibilidad
             td Facilidad con la que la información puede ser recuperada por los usuarios autorizados.
@@ -209,7 +209,7 @@
               | Yahoo Search
         .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           figure
-            img(src='@/assets/curso/tema1/img-08.png', alt="Imagen decorativa")
+            img(src='@/assets/curso/tema1/img-08.png', alt="")
       .row.justify-content-center(titulo="Buscadores académicos")
         .col-lg-6.order-lg-1.order-2
           p.mb-4 Permiten localizar artículos científicos, tesis y documentos de carácter académico provenientes de revistas, universidades y centros de investigación. Su principal fortaleza es el acceso a contenidos con mayor rigor académico; sin embargo, en algunos casos el acceso al texto completo puede estar restringido. Se recomienda su uso para obtener evidencia académica confiable y respaldar trabajos formativos o investigativos.
@@ -229,7 +229,7 @@
               | ERIC (Education Resources Information Center)
         .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           figure
-            img(src='@/assets/curso/tema1/img-09.png', alt="Imagen decorativa")
+            img(src='@/assets/curso/tema1/img-09.png', alt="")
       .row.justify-content-center(titulo="Bases de datos bibliográficas")
         .col-lg-6.order-lg-1.order-2
           p.mb-4 Concentran revistas científicas indexadas y publicaciones especializadas, organizadas mediante criterios de calidad editorial y evaluación por pares. Aunque suelen presentar barreras de pago o acceso institucional, constituyen una fuente clave para procesos de investigación formal y elaboración de trabajos con alto nivel de profundidad y rigor.
@@ -255,7 +255,7 @@
               | ProQuest
         .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           figure
-            img(src='@/assets/curso/tema1/img-10.png', alt="Imagen decorativa")
+            img(src='@/assets/curso/tema1/img-10.png', alt="")
       .row.justify-content-center(titulo="Repositorios institucionales")
         .col-lg-6.order-lg-1.order-2
           p.mb-4 Albergan la producción académica y científica de universidades y organizaciones, como tesis, informes técnicos, artículos y materiales educativos. Si bien la calidad de los contenidos puede variar según las políticas de cada institución, estos repositorios son especialmente útiles para consultar tesis, informes y documentos de investigación aplicada.
@@ -275,7 +275,7 @@
               | Repositorio Digital de la Universidad de Antioquia
         .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           figure
-            img(src='@/assets/curso/tema1/img-11.png', alt="Imagen decorativa")
+            img(src='@/assets/curso/tema1/img-11.png', alt="")
       .row.justify-content-center(titulo="Sitios oficiales")
         .col-lg-6.order-lg-1.order-2
           p.mb-4 Los sitios de entidades gubernamentales y organismos reconocidos proporcionan normas, estadísticas, informes y datos oficiales. Aunque pueden reflejar un enfoque institucional específico, son fuentes confiables para acceder a información normativa, regulatoria y estadística, especialmente en contextos académicos y productivos.
@@ -298,7 +298,7 @@
               | Gobierno de Colombia
         .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           figure
-            img(src='@/assets/curso/tema1/img-12.png', alt="Imagen decorativa")
+            img(src='@/assets/curso/tema1/img-12.png', alt="")
       .row.justify-content-center(titulo="Redes sociales")
         .col-lg-6.order-lg-1.order-2
           p.mb-4 Permiten identificar tendencias, opiniones y discusiones en tiempo real sobre diversos temas. No obstante, presentan un alto riesgo de desinformación y contenidos no verificados, por lo que su uso debe realizarse con cautela y limitarse principalmente a la comprensión del contexto social o a la identificación de percepciones, nunca como fuente principal de información académica.
@@ -324,7 +324,7 @@
               | TikTok
         .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           figure
-            img(src='@/assets/curso/tema1/img-13.png', alt="Imagen decorativa")
+            img(src='@/assets/curso/tema1/img-13.png', alt="")
 
     .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-10.col-12
@@ -340,47 +340,6 @@
       .col-12
         figure.movil
           img(src='@/assets/curso/tema1/figura-3-2v.svg', alt='Figura 3 que ilustra la estrategia de búsqueda tipo embudo, iniciando con una exploración amplia y avanzando progresivamente hacia la precisión, validación y documentación de la información.', style="width: 1043px").m-auto
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </template>

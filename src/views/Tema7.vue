@@ -5,17 +5,17 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 7
-      h1 Lenguajes naturales y lenguaje controlado
+      h1 Lenguaje natural y lenguaje controlado
     
     .row.justify-content-center.mb-4
       .col-12(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/tema7/img-01.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema7/img-01.png', alt='')
 
     .row.justify-content-center.mb-4
       .col-lg-3.col-6.mb-lg-0.mb-4(data-aos="zoom-in")
         figure
-          img.img-fluid(src="@/assets/curso/tema7/img-02.svg" alt="Imagen decorativo")
+          img.img-fluid(src="@/assets/curso/tema7/img-02.svg" alt="")
       .col-lg-9
         p.mb-4(data-aos="fade-left") Para comprender cómo funcionan los sistemas de búsqueda académica y documental, es necesario distinguir entre dos formas de expresar una necesidad de información: el lenguaje natural y el lenguaje controlado. A continuación, se explicará brevemente cada uno de estos lenguajes, mostrando cómo se relacionan y cómo el proceso de búsqueda implica traducir lo que el usuario formula de manera cotidiana en términos estandarizados que los sistemas de información pueden interpretar con mayor precisión y consistencia. Esta relación actúa como un puente lingüístico que optimiza la recuperación de información relevante y confiable. Cada uno se sintetiza de la siguiente manera:
         .row
@@ -80,7 +80,7 @@
     .row.justify-content-center.mb-4
       .col-lg-6.col-10.mb-4.mb-lg-0.d-none.d-lg-block(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/tema7/img-03.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema7/img-03.png', alt='')
       .col-lg-6       
         LineaTiempoD.color-acento-botones
           .row.justify-content-center(numero="1" titulo="Tesauros")
@@ -96,11 +96,11 @@
     .row.justify-content-center.mb-4
       .col-1.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/tema3/img-13.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema3/img-13.svg', alt='')
       .col-9
         p.mb-0(data-aos="fade-left") Los términos del lenguaje controlado se almacenan en los metadatos de los documentos (como el autor, el año y las palabras clave). Al realizar una búsqueda profesional, el sistema no escanea solo el texto, sino que cruza los descriptores de la consulta con los metadatos del registro. Esto explica por qué las bases de datos bibliográficas ofrecen mayor precisión que los buscadores #[i web] generales.
 
-    p.mb-4 Para finalizar, se presenta la siguiente sobre el lenguaje natural y el controlado:
+    p.mb-4 Para finalizar, se presenta la siguiente imagen sobre el lenguaje natural y el controlado:
 
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-10.col-12
@@ -111,10 +111,10 @@
       .row.justify-content-center
         .col-10
           figure.desktop
-            img(src='@/assets/curso/tema7/img-1-1v.svg', alt='Figura 5 que representa de manera gráfica de la relación entre el lenguaje natural y el lenguaje controlado en los procesos de búsqueda de información, donde los términos espontáneos del usuario se traducen en descriptores estandarizados de un tesauro, como recursos hídricos, conservación, sostenibilidad y gestión ambiental, para mejorar la precisión y coherencia de la recuperación de información.', style="width: 1043px").m-auto
+            img(src='@/assets/curso/tema7/img-1-1v.svg', alt='Figura 5 que representa de manera gráfica la relación entre el lenguaje natural y el lenguaje controlado en los procesos de búsqueda de información, donde los términos espontáneos del usuario se traducen en descriptores estandarizados de un tesauro, como recursos hídricos, conservación, sostenibilidad y gestión ambiental, para mejorar la precisión y coherencia de la recuperación de información.', style="width: 1043px").m-auto
       .col-12
         figure.movil
-          img(src='@/assets/curso/tema7/img-1-2v.svg', alt='Figura 5 que representa de manera gráfica de la relación entre el lenguaje natural y el lenguaje controlado en los procesos de búsqueda de información, donde los términos espontáneos del usuario se traducen en descriptores estandarizados de un tesauro, como recursos hídricos, conservación, sostenibilidad y gestión ambiental, para mejorar la precisión y coherencia de la recuperación de información.', style="width: 1043px").m-auto
+          img(src='@/assets/curso/tema7/img-1-2v.svg', alt='Figura 5 que representa de manera gráfica la relación entre el lenguaje natural y el lenguaje controlado en los procesos de búsqueda de información, donde los términos espontáneos del usuario se traducen en descriptores estandarizados de un tesauro, como recursos hídricos, conservación, sostenibilidad y gestión ambiental, para mejorar la precisión y coherencia de la recuperación de información.', style="width: 1043px").m-auto
 
 </template>
 

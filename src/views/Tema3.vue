@@ -10,7 +10,7 @@
     .row.justify-content-center.mb-4
       .col-12(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/tema3/img-01.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema3/img-01.png', alt='')
 
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-10.col-12
@@ -22,7 +22,7 @@
     .row.justify-content-center.mb-4
       .col-lg-6.col-10.mb-4.mb-lg-0.d-none.d-lg-block(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/tema3/img-02.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema3/img-02.png', alt='')
       .col-lg-6       
         LineaTiempoD.color-acento-botones
           .row.justify-content-center(numero="1" titulo="Búsqueda sintáctica")
@@ -33,7 +33,7 @@
               p.mb-0 Los motores modernos intentan comprender la intención y el contexto de la consulta. No buscar solo la palabra, sino el concepto relacionado.
           .row.justify-content-center(numero="3" titulo="Ejemplo")
             .col-12.order-lg-2.order-3
-              p.mb-0 Si se busca "mitigación de CO2", el motor semántico traerá resultados sobre "secuestro de carbono", aunque la palabra exacta no esté en la consulta.
+              p.mb-0 Si se busca "mitigación de CO²", el motor semántico traerá resultados sobre "secuestro de carbono", aunque la palabra exacta no esté en la consulta.
 
     p.mb-4 Algunas estrategias sencillas y efectivas son:
 
@@ -54,29 +54,29 @@
         .row
           .col-auto.d-none.d-lg-block.order-lg-1.order-2.mb-lg-0
             figure
-              img(src='@/assets/curso/tema3/img-04.svg' alt="Imagen decorativa")
+              img(src='@/assets/curso/tema3/img-04.svg' alt="")
           .col-lg-10.col-12.mb-3.order-lg-2.order-2.mb-lg-0
             p(style="color:#000") Esta búsqueda devolverá únicamente páginas que contengan la frase exacta "alfabetización digital", lo que permitirá enfocarse en información directamente relevante para el tema de interés.
         p Los beneficios son:
       .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/tema3/img-03.png' alt="Imagen decorativa")
+        img(src='@/assets/curso/tema3/img-03.png' alt="")
 
     .row.justify-content-center.mb-4
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/tema3/img-05.svg' alt="Imagen decorativa")
+          img(src='@/assets/curso/tema3/img-05.svg' alt="")
           .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#FED2C7;")
             h4.text-center.mt-5(style="color:#12263F") Precisión
             p.text-center.mb-0(style="color:#12263F") Reduce la ambigüedad y asegura que los resultados sean relevantes para la frase específica que se está buscando.
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-left")
         .tarjeta-avatar
-          img(src='@/assets/curso/tema3/img-06.svg' alt="Imagen decorativa")
+          img(src='@/assets/curso/tema3/img-06.svg' alt="")
           .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#FED2C7;")
             h4.text-center.mt-5(style="color:#12263F") Eficiencia
             p.text-center.mb-0(style="color:#12263F") Ahorra tiempo al evitar la revisión de páginas que solo contienen palabras clave relacionadas, pero no la frase exacta.
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/tema3/img-07.svg' alt="Imagen decorativa")
+          img(src='@/assets/curso/tema3/img-07.svg' alt="")
           .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#FED2C7;")
             h4.text-center.mt-5(style="color:#12263F") Contexto
             p.text-center.mb-0(style="color:#12263F") Permite encontrar información en el contexto exacto en el que se utiliza la frase, lo que puede ser crucial para comprender su significado.
@@ -94,7 +94,7 @@
     .row.justify-content-center.mb-4
       .col-lg-5.col-10.mb-4.mb-lg-0(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/tema3/img-08.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema3/img-08.svg', alt='')
       .col-lg-7       
         .cajon.cajon.C01.color-primario.p-4.mb-3.p-3
           p.mb-0(data-aos="fade-down") #[b Ejemplo:] suponiendo que se está investigando sobre inteligencia artificial, pero no se desean artículos de opinión ni #[i blogs] personales; en este caso, la búsqueda puede refinarse de la siguiente manera: #[b Inteligencia artificial -blog -opinión]
@@ -147,7 +147,7 @@
       .row.justify-content-center.mb-4
         .col.col-lg-3.col-md-7.col-8.order-lg-1.order-1.mb-3
           figure
-            img(src='@/assets/curso/tema3/img-12.png', alt='Imagen decorativa')
+            img(src='@/assets/curso/tema3/img-12.png', alt='')
         .col.col-lg-7.col-12.order-lg-2.order-2
           .cajon.cajon.C02.color-secundario.p-4.mb-5.py-3
             p.mb-0(data-aos="fade-down") #[b Ejemplo:] si se están buscando estudios sobre el cambio climático publicados por universidades, se puede usar la siguiente búsqueda: #[b Cambio climático site:edu]
@@ -156,7 +156,7 @@
               p(data-aos="fade-down") La primera búsqueda mostrará páginas que contengan información sobre “cambio climático” alojadas en sitios #[i web] con dominio .edu. Esto incrementa la probabilidad de acceder a estudios académicos, investigaciones científicas y contenidos producidos por instituciones educativas.
             .col.col-lg-auto.order-lg-1.order-1.d-none.d-lg-block
               figure
-                img(src='@/assets/curso/tema3/img-13.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/tema3/img-13.svg', alt='')
           p De manera similar, si se buscan políticas públicas sobre energía renovable en Estados Unidos, se puede usar: #[b políticas energía renovable site:gov]
     
     p La segunda búsqueda mostrará páginas relacionadas con “políticas de energía renovable” publicadas en dominios .gov, lo que garantiza que la información provenga de fuentes gubernamentales oficiales y de carácter normativo o técnico.
@@ -165,7 +165,7 @@
     .row.justify-content-center.mb-4
       .col-lg-6.col-10.mb-4.mb-lg-0.d-none.d-lg-block(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/tema3/img-14.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema3/img-14.png', alt='')
       .col-lg-6       
         LineaTiempoD.color-acento-botones
           .row.justify-content-center(numero="1" titulo="Credibilidad")
@@ -196,7 +196,7 @@
     .row.justify-content-center.mb-4
       .col-1.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/tema3/img-13.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema3/img-13.svg', alt='')
       .col-9
         p.mb-0(data-aos="fade-left") Esta búsqueda devolverá páginas que contengan la frase exacta "aprendizaje automático" y que estén alojadas en sitios #[i web] con el dominio .edu, pero excluirá aquellas que también contengan las palabras "curso" u "#[i online]".
     
@@ -207,26 +207,26 @@
     .row.justify-content-center.mb-4
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/tema3/img-15.svg' alt="Imagen decorativa")
+          img(src='@/assets/curso/tema3/img-15.svg' alt="")
           .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#FED2C7;")
             h4.text-center.mt-5(style="color:#12263F") Máxima precisión
             p.text-center.mb-0(style="color:#12263F") Permite delimitar con exactitud los resultados al combinar frase exacta, dominio específico y exclusión de términos no deseados.
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-left")
         .tarjeta-avatar
-          img(src='@/assets/curso/tema3/img-16.svg' alt="Imagen decorativa")
+          img(src='@/assets/curso/tema3/img-16.svg' alt="")
           .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#FED2C7;")
             h4.text-center.mt-5(style="color:#12263F") Optimización del tiempo
             p.text-center.mb-0(style="color:#12263F") Reduce significativamente los resultados irrelevantes, facilitando el acceso rápido a información pertinente y de calidad.
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/tema3/img-17.svg' alt="Imagen decorativa")
+          img(src='@/assets/curso/tema3/img-17.svg' alt="")
           .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#FED2C7;")
             h4.text-center.mt-5(style="color:#12263F") Mayor calidad de las fuentes
             p.text-center.mb-0(style="color:#12263F") Incrementa la probabilidad de encontrar contenidos confiables y académicos, adecuados para investigaciones y trabajos formales.
 
     .row.justify-content-center.mb-4
       .col-lg-4.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-        img(src='@/assets/curso/tema3/img-18.png' alt="Imagen decorativa")
+        img(src='@/assets/curso/tema3/img-18.png' alt="")
       .col-lg-8.order-lg-1.order-2.mb-lg-0.mb-4
         .row.align-items-center.mb-4(data-aos="zoom-in")
           .col-auto.pe-0(style="z-index:2")
@@ -248,21 +248,21 @@
             .row.justify-content-center.mb-3
               .col-lg-6.col-6
                 figure
-                  img(src='@/assets/curso/tema3/img-19.svg', alt='Imagen decorativa')
-            h4.text-center.mb-4 Encontrar la "Perla"
+                  img(src='@/assets/curso/tema3/img-19.svg', alt='')
+            h4.text-center.mb-4 Encontrar la "perla"
             p.mb-0 Localizar un documento, artículo o informe que sea perfecto para la necesidad (la fuente ideal). 
           .col-xl.col-md-6.tarjeta.color-secundario.p-4(style="background-color:#E2E2E2")
             .row.justify-content-center.mb-3
               .col-lg-6.col-6
                 figure
-                  img(src='@/assets/curso/tema3/img-20.svg', alt='Imagen decorativa')
+                  img(src='@/assets/curso/tema3/img-20.svg', alt='')
             h4.text-center.mb-4 Extraer metadatos
             p.mb-0 Analizar las palabras clave (#[i keywords]), descriptores o lenguaje controlado que el autor utilizó para etiquetar ese documento.
           .col-xl.col-md-6.tarjeta.color-secundario.p-4(style="background-color:#FED2C7")
             .row.justify-content-center.mb-3
               .col-lg-6.col-6
                 figure
-                  img(src='@/assets/curso/tema3/img-21.svg', alt='Imagen decorativa')
+                  img(src='@/assets/curso/tema3/img-21.svg', alt='')
             h4.text-center.mb-4 Expandir la red
             p.mb-0 Utilizar esos nuevos términos técnicos para realizar una nueva búsqueda más precisa, encontrando documentos similares que no aparecieron en la exploración inicial.
 
@@ -274,32 +274,32 @@
               img(src='@/assets/curso/tema1/icono.svg', style="width: 45px" ,alt='').m-auto
           .col-lg-auto.col-9.titulo01(style="z-index:1")
             .p-1
-              h3.mb-0.ms-3 F. Búsqueda iterativa y refinamiento (Método del embudo)
+              h3.mb-0.ms-3 F. Búsqueda iterativa y refinamiento (método del embudo)
         p.mb-4 La búsqueda iterativa concibe la recuperación de información como un proceso progresivo de selección y evaluación de fuentes, en el que cada etapa mejora la calidad de los resultados obtenidos. 
         .cajon.cajon.C01.color-primario.p-4.mb-4
           p.mb-0 #[b Ejemplo:] a partir de un artículo clave sobre consumo digital, se identifican términos técnicos para ampliar y refinar la búsqueda de información especializada, encontrando: #[b Experiencia del usuario”, “decisión de compra online”, “analítica de comportamiento”]
       .col-lg-4.col-md-6.col-8.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/tema3/img-22.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema3/img-22.png', alt='')
 
     p.mb-4 La búsqueda no es un evento único, sino un proceso de mejora continua y por ello, se deben aplicar los siguientes pasos:
 
     .row.justify-content-center.mb-4
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/tema3/img-23.svg' alt="Imagen decorativa")
+          img(src='@/assets/curso/tema3/img-23.svg' alt="")
           .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#FED2C7;")
             h4.text-center.mt-5(style="color:#12263F") Explorar
             p.text-center.mb-0(style="color:#12263F") Iniciar con términos amplios en buscadores generales para reconocer el panorama.
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-left")
         .tarjeta-avatar
-          img(src='@/assets/curso/tema3/img-24.svg' alt="Imagen decorativa")
+          img(src='@/assets/curso/tema3/img-24.svg' alt="")
           .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#FED2C7;")
             h4.text-center.mt-5(style="color:#12263F") Delimitar
             p.text-center.mb-0(style="color:#12263F") Identificar términos técnicos y excluir términos irrelevantes con el signo menos (-).
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/tema3/img-25.svg' alt="Imagen decorativa")
+          img(src='@/assets/curso/tema3/img-25.svg' alt="")
           .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#FED2C7;")
             h4.text-center.mt-5(style="color:#12263F") Precisar
             p.text-center.mb-0(style="color:#12263F") Construir ecuaciones de búsqueda de alta precisión combinando operadores booleanos y filtros de dominio.

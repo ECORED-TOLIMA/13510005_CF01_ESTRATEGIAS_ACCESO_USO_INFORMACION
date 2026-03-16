@@ -11,13 +11,13 @@
       .row.justify-content-center.mb-4
         .col-lg-4.col-10.mb-4.mb-lg-0(data-aos="zoom-in")
           figure
-            img(src='@/assets/curso/tema5/img-01.png', alt='Imagen decorativa')
+            img(src='@/assets/curso/tema5/img-01.png', alt='')
         .col-lg-8   
           p(data-aos="fade-down") Los operadores de búsqueda son instrucciones lógicas y sintácticas que se incorporan a una consulta para controlar la forma en que un sistema de información localiza, combina y prioriza los resultados. Su función principal es transformar una búsqueda simple en una estrategia estructurada, permitiendo al usuario definir relaciones entre conceptos, establecer jerarquías, ampliar o restringir resultados y aumentar la pertinencia de la información recuperada. En contextos académicos y de investigación, el uso de operadores reduce el ruido informativo, mejora la precisión semántica y facilita la construcción de ecuaciones de búsqueda coherentes con los objetivos del análisis, optimizando así el proceso de recuperación de información confiable y relevante.    
           .row.justify-content-center.mb-3
             .col-lg-1.d-none.d-lg-block(data-aos="zoom-in")
               figure
-                img(src='@/assets/curso/introduccion/img-02.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/introduccion/img-02.svg', alt='')
             .col-lg-11
               p(data-aos="fade-left") A continuación, se presentan los principales operadores de búsqueda utilizados en la recuperación de información, con el propósito de explicar de manera clara y aplicada cómo funciona cada uno dentro de una estrategia de búsqueda. En ellos, se destaca su utilidad para refinar consultas, organizar términos y mejorar la precisión y relevancia de los resultados, de acuerdo con las necesidades planteadas en el proceso de investigación:
 
@@ -36,7 +36,7 @@
         ImagenInfografica.color-acento-botones.desktop
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema5/img-1-1v.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/tema5/img-1-1v.svg', alt='')
           .tarjeta.tarjeta--blanca.p-3(x="17.5%" y="18%" numero="+")(style="background-color:#FC9D83")
             p Exige ambos términos (reduce resultados). El operador AND permite la intersección entre dos términos. En la búsqueda arrojará resultados donde se incluyan los dos términos.
           .tarjeta.tarjeta--blanca.p-3(x="50%" y="18%" numero="+")(style="background-color:#FC9D83")
@@ -44,7 +44,7 @@
           .tarjeta.tarjeta--blanca.p-3(x="82%" y="18%" numero="+")(style="background-color:#FC9D83")
             p Excluye (limpia ruido). El operador NOT corresponde a la diferencia y permite excluir uno o varios aspectos del tema que se está consultando.
         figure.movil
-          img(src='@/assets/curso/tema5/img-1-2v.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema5/img-1-2v.svg', alt='')
 
     .row.align-items-center.mb-4(data-aos="zoom-in")
       .col-auto.pe-0(style="z-index:2")
@@ -54,7 +54,7 @@
         .p-1
           h3.mb-0.ms-3 Operadores de proximidad (NEAR / ADJ)
 
-    p.mb-4 A diferencia del operador AND, que busca términos en cualquier parte del documento, los operadores de proximidad exigen que las palabras estén cerca una de la otra, lo que aumenta drásticamente la relevancia. Estos son sus especificaciones:
+    p.mb-4 A diferencia del operador AND, que busca términos en cualquier parte del documento, los operadores de proximidad exigen que las palabras estén cerca una de la otra, lo que aumenta drásticamente la relevancia. Estas son sus especificaciones:
 
     .row.justify-content-center.mb-4
       .col-xl-4.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
@@ -94,12 +94,12 @@
           img(src='@/assets/curso/tema1/icono.svg', style="width: 45px" ,alt='').m-auto
       .col-lg-auto.col-9.titulo01(style="z-index:1")
         .p-1
-          h3.mb-0.ms-3 Operadores de proximidad (NEAR / ADJ)
+          h3.mb-0.ms-3 Operadores de truncamiento ( * )
 
     .row.justify-content-center.mb-4
       .col-lg-6.d-none.d-lg-block(data-aos="fade-left")
         figure
-          img.img-fluid(src="@/assets/curso/tema5/img-05.png" alt="Imagen decorativo")
+          img.img-fluid(src="@/assets/curso/tema5/img-05.png" alt="")
       .col-lg-6
         p.mb-4(data-aos="fade-left") Permite recuperar #[b variaciones de una misma raíz léxica], ampliando los resultados sin perder coherencia temática.
         .titulo.mb-4(data-aos="fade-left")
@@ -107,7 +107,7 @@
         p.mb-0 #[b ambient*]
         p Busca: ambiente, ambiental, ambientalmente, etc.
         p.mb-0 #[b Niñ*]
-        p busca: niño (s) / niña / niñez
+        p Busca: niño(s) / niña / niñez
 
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-10.col-12
@@ -125,7 +125,7 @@
           img(src='@/assets/curso/tema1/icono.svg', style="width: 45px" ,alt='').m-auto
       .col-lg-auto.col-9.titulo01(style="z-index:1")
         .p-1
-          h3.mb-0.ms-3 Wildcards (comodines) avanzados
+          h3.mb-0.ms-3 #[i Wildcards] (comodines) avanzados
 
     p.mb-4 Además del truncamiento final con el asterisco * para recuperar variaciones de una raíz léxica, existen comodines internos:
 
@@ -143,7 +143,7 @@
     .row.justify-content-center.mb-4
       .col-lg-6.d-none.d-lg-block(data-aos="fade-left")
         figure
-          img.img-fluid(src="@/assets/curso/tema5/img-09.svg" alt="Imagen decorativo")
+          img.img-fluid(src="@/assets/curso/tema5/img-09.svg" alt="")
       .col-lg-6
         p.mb-4(data-aos="fade-left") Permiten buscar una secuencia de palabras en el orden exacto, evitando la dispersión de resultados y mejorando la precisión de la búsqueda.
         .titulo.mb-4(data-aos="fade-left")
@@ -166,7 +166,7 @@
     .row.justify-content-center.mb-4
       .col-lg-6.d-none.d-lg-block(data-aos="fade-left")
         figure
-          img.img-fluid(src="@/assets/curso/tema5/img-10.png" alt="Imagen decorativo")
+          img.img-fluid(src="@/assets/curso/tema5/img-10.png" alt="")
       .col-lg-6
         .titulo.mb-4(data-aos="fade-left")
           h4.text-center.mb-0 Ejemplo
@@ -174,7 +174,7 @@
         p.mb-4 #[b (Platón) AND (mímesis OR representación) NOT (Arte OR estética)]
         .cajon.cajon.C02.color-secundario.p-4.mb-4
           p ( )
-          p.mb-0 Busca documentos que incluyan la raíz del término seguida de cualquier número de caracteres.
+          p.mb-0 Busca documentos donde los términos agrupados se procesan primero según el orden lógico establecido.
 
     .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-10.col-12
@@ -207,23 +207,23 @@
             .row.justify-content-center.mb-3
               .col-lg-4.col-6
                 figure
-                  img(src='@/assets/curso/tema5/img-11.svg', alt='Imagen decorativa')
+                  img(src='@/assets/curso/tema5/img-11.svg', alt='')
             h4.text-center.mb-4 Lógica de agrupación
             p.mb-0 Permite combinar sinónimos con OR y luego cruzarlos con términos obligatorios mediante AND.
           .col-xl.col-md-6.tarjeta.color-secundario.p-4(style="background-color:#FED2C7")
             .row.justify-content-center.mb-3
               .col-lg-4.col-6
                 figure
-                  img(src='@/assets/curso/tema5/img-12.svg', alt='Imagen decorativa')
+                  img(src='@/assets/curso/tema5/img-12.svg', alt='')
             h4.text-center.mb-4 Ejemplo avanzado
             p.mb-0 (Teletrabajo OR "trabajo remoto") AND (productividad OR eficiencia) NOT (estrés OR "salud mental"). Esta ecuación busca el impacto del trabajo remoto en el rendimiento, excluyendo los temas de salud.
 
     .row.justify-content-center.mb-4
       .col-1.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/tema3/img-13.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema3/img-13.svg', alt='')
       .col-9
-        p.mb-0(data-aos="fade-left") A partir de toda la información relacionada, se presenta la siguiente tabla que resume de manera muy exacta lo más destacado en cada operador y los resultados cada uno:
+        p.mb-0(data-aos="fade-left") A partir de toda la información relacionada, se presenta la siguiente tabla que resume de manera muy exacta lo más destacado en cada operador y los resultados de cada uno:
 
     .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-10.col-12

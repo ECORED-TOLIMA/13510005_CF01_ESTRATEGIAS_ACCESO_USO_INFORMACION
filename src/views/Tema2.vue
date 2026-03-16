@@ -18,7 +18,7 @@
                   img(src="@/assets/curso/tema2/img-02.svg", data-aos="zoom-in")
               .col-lg.mb-3.mb-lg-0
                 h4(data-aos="fade-left").mb-4(style="color:#FF955E") Pódcast
-                p.text-white Lo invitamos a escuchar el siguiente Pódcast:
+                p.text-white Lo invitamos a escuchar el siguiente pódcast:
         
                 TarjetaAudio.color-secundario.bg-color-white.mb-3(
                   texto="Pódcast"
@@ -27,7 +27,7 @@
                 )
       .col-lg-4.col-md-6.col-8.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/tema2/img-01.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema2/img-01.png', alt='')
 
     .row.align-items-center.mb-4(data-aos="zoom-in")
       .col-auto.pe-0(style="z-index:2")
@@ -47,7 +47,7 @@
           p.mb-0 #[b Es información producida por investigadores para investigadores. Es lenta de leer, pero es la más sólida que vas a encontrar.]
         .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           figure
-            img(src='@/assets/curso/tema2/img-02.png', alt="Imagen decorativa")
+            img(src='@/assets/curso/tema2/img-02.png', alt="")
       .row.justify-content-center(titulo="Fuentes institucionales u oficiales")
         .col-lg-6.order-lg-1.order-2
           p Aquí mandan los organismos del Estado y las entidades internacionales como los Ministerios, el DANE, la OMS o la UNESCO. Su función es dar cifras oficiales, leyes y directrices técnicas.
@@ -66,15 +66,15 @@
               | Uso técnico: son la base para realizar análisis estadísticos, predicciones con IA y #[i dashboards] de gestión que respaldan la toma de decisiones institucionales.
         .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           figure
-            img(src='@/assets/curso/tema2/img-03.png', alt="Imagen decorativa")
+            img(src='@/assets/curso/tema2/img-03.png', alt="")
       .row.justify-content-center(titulo="Fuentes de medios de comunicación")
         .col-lg-6.order-lg-1.order-2
           p Se habla de la prensa, radio y noticieros digitales. Su fuerte es la inmediatez: cuentan qué está pasando ahora mismo.
           p.mb-4 En pocas palabras: 
-          p.mb-0 #[b Son geniales para estar al día, pero ojo: a veces sacrifican la profundidad por la rapidez. Se deben usar para contexto, pero hay que confírmalas con fuentes académicas si se necesita rigor técnico.]
+          p.mb-0 #[b Son geniales para estar al día, pero ojo: a veces sacrifican la profundidad por la rapidez. Se deben usar para contexto, pero hay que confirmarlas con fuentes académicas si se necesita rigor técnico.]
         .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           figure
-            img(src='@/assets/curso/tema2/img-04.png', alt="Imagen decorativa")
+            img(src='@/assets/curso/tema2/img-04.png', alt="")
       .row.justify-content-center(titulo="Fuentes comerciales")
         .col-lg-6.order-lg-1.order-2
           p Son los contenidos que generan las empresas y marcas. Incluyen informes de mercado, catálogos de productos o #[i blogs] corporativos.
@@ -82,7 +82,7 @@
           p.mb-0 #[b Son muy útiles para entender tendencias de consumo o innovaciones tecnológicas, pero recuerda que siempre tienen un interés de venta detrás. Hay que leerlas con un filtro de "curaduría" extra.]
         .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           figure
-            img(src='@/assets/curso/tema2/img-05.png', alt="Imagen decorativa")
+            img(src='@/assets/curso/tema2/img-05.png', alt="")
       .row.justify-content-center(titulo="Fuentes sociales")
         .col-lg-6.order-lg-1.order-2
           p Este es el territorio de los foros, hilos de redes sociales y comunidades virtuales. Es información generada por usuarios comunes.
@@ -90,7 +90,7 @@
           p.mb-0 #[b Es el lugar donde nace la conversación. Es excelente para sentir el "pulso social", pero es donde más riesgo hay de encontrar desinformación o datos sin verificar. Se deben usar como punto de partida, nunca como verdad absoluta.]
         .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           figure
-            img(src='@/assets/curso/tema2/img-06.png', alt="Imagen decorativa")
+            img(src='@/assets/curso/tema2/img-06.png', alt="")
 
     p.mb-4 Una vez reconocidos los distintos actores que producen información —académicos, institucionales, mediáticos, comerciales y sociales—, es necesario avanzar hacia una clasificación más técnica que permita evaluar el grado de respaldo metodológico y el nivel de confianza que ofrece cada fuente. Por ello, la siguiente tabla presenta una tipología de fuentes según su origen técnico, destacando su soporte de experticia y el nivel de confianza que aportan para el análisis y la toma de decisiones:
 
@@ -116,7 +116,7 @@
           tr(data-aos="fade-right")
             td.text-center(style="background-color: #F6F6F6;") #[i Preprints]
             td(style="background-color: #F6F6F6;") Artículos de investigación completos pero que aún no terminan la revisión por pares.
-            td(style="background-color: #F6F6F6;") Medio-Alto: útil para tendencias, pero requiere verificación cruzada. 
+            td(style="background-color: #F6F6F6;") Medio-alto: útil para tendencias, pero requiere verificación cruzada. 
           tr(data-aos="fade-right")
             td.text-center Fuentes curadas
             td Contenidos que han pasado por un proceso de búsqueda, selección y organización sistemática. 
@@ -139,7 +139,7 @@
         ImagenInfografica.color-acento-botones.desktop
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema2/img-1-1v.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/tema2/img-1-1v.svg', alt='')
           .tarjeta.tarjeta--blanca.p-3(x="17%" y="64%" numero="+")(style="background-color:#FC9D83")
             p Ir a fuentes institucionales para datos precisos.
           .tarjeta.tarjeta--blanca.p-3(x="42.8%" y="30.5%" numero="+")(style="background-color:#FC9D83")
@@ -149,7 +149,7 @@
           .tarjeta.tarjeta--blanca.p-3(x="83.2%" y="46.5%" numero="+")(style="background-color:#FC9D83")
             p Ir a fuentes sociales para perspectivas comunitarias.
         figure.movil
-          img(src='@/assets/curso/tema2/img-1-2v.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema2/img-1-2v.svg', alt='')
 
     .row.justify-content-center(data-aos="fade-right")
       .col-lg-10.col-12

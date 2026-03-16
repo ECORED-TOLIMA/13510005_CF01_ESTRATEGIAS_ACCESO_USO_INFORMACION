@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Fundamentos para la búsqueda y organización de la información',
     Description:
-      'En este contenido se desarrolla un proceso clave de la formación, en el cual se fortalece la comprensión de la ética empresarial, la sostenibilidad y la toma de decisiones responsables en el mercadeo, aplicándolas en actividades prácticas. Estos aprendizajes permiten diseñar estrategias conscientes y con impacto positivo.',
+      'En este contenido se desarrollan habilidades para la gestión y búsqueda eficaz de información, abordando sus conceptos, fuentes y características. Se aplican estrategias de búsqueda mediante buscadores, operadores y filtros avanzados, incluyendo ecuaciones de alta precisión y el uso del lenguaje natural y controlado para localizar información pertinente y confiable.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -39,7 +39,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Fuentes de información: concepto, tipos.',
+        titulo: 'Fuentes de información: concepto, tipos',
         desarrolloContenidos: true,
       },
       {
@@ -51,7 +51,7 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Buscadores: concepto, usos, tipos.',
+        titulo: 'Buscadores: concepto, usos, tipos',
         desarrolloContenidos: true,
       },
       {
@@ -192,7 +192,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO). (2011). <em>Alfabetización mediática e informacional: currículo para profesores.</em> UNESCO.',
+        'Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO). (2011). <em>Alfabetización mediática e informacional: <em>curriculum</em> para profesores.</em> UNESCO.',
       link: 'https://unesdoc.unesco.org/ark:/48223/pf0000216099',
     },
     {
@@ -285,8 +285,8 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'María Fernanda Pineda Mora',
-          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
+          nombre: 'Jorge Eduardo Rueda Peña',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {

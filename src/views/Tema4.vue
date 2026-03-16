@@ -10,7 +10,7 @@
     .row.justify-content-center.mb-4
       .col-12(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/tema4/img-01.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema4/img-01.png', alt='')
 
     p.mb-4 Cuando se necesita encontrar información en internet, lo primero que suele hacerse es acudir a un motor de búsqueda. Estas herramientas permiten localizar contenidos digitales de manera rápida, pero su uso efectivo va mucho más allá de escribir una palabra y abrir el primer resultado que aparece.
 
@@ -35,12 +35,12 @@
           img.img-hero(src='@/assets/curso/tema4/img-02.svg', alt='').m-auto
       .col-xl.px-0
         .d-flex.align-items-start
-          img.icon-inline.d-none.d-lg-block.me-3(src='@/assets/curso/tema4/img-03.png' alt="Imagen decorativa")
+          img.icon-inline.d-none.d-lg-block.me-3(src='@/assets/curso/tema4/img-03.png' alt="")
         p.mb-0 Su principal ventaja es la amplitud, ya que ofrecen resultados rápidos y variados sobre casi cualquier tema. Sin embargo, esta misma característica puede generar un exceso de información irrelevante o poco confiable. Por esta razón, los motores #[i web] son más adecuados para explorar un tema por primera vez, identificar conceptos generales o conocer diferentes enfoques antes de profundizar.
 
     .row.justify-content-center.mb-4
       .col-lg-4.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-        img(src='@/assets/curso/tema4/img-04.png' alt="Imagen decorativa")
+        img(src='@/assets/curso/tema4/img-04.png' alt="")
       .col-lg-8.order-lg-1.order-2.mb-lg-0.mb-4
         .row.align-items-center.mb-4(data-aos="zoom-in")
           .col-auto.pe-0(style="z-index:2")
@@ -48,8 +48,8 @@
               img(src='@/assets/curso/tema1/icono.svg', style="width: 45px" ,alt='').m-auto
           .col-lg-auto.col-9.titulo01(style="z-index:1")
             .p-1
-              h3.mb-0.ms-3 El "Filtro burbuja" en la búsqueda general
-        p.mb-4(style="color:#000") Un concepto crítico para el analista de información es el “Filtro burbuja”: los buscadores generales personalizan los resultados según lo que interpretan que el usuario desea conocer. Este proceso puede limitar la diversidad de fuentes, ocultar perspectivas divergentes y relegar información técnica menos “popular”, pero potencialmente más precisa y relevante para el análisis académico.
+              h3.mb-0.ms-3 El "filtro burbuja" en la búsqueda general
+        p.mb-4(style="color:#000") Un concepto crítico para el analista de información es el “filtro burbuja”: los buscadores generales personalizan los resultados según lo que interpretan que el usuario desea conocer. Este proceso puede limitar la diversidad de fuentes, ocultar perspectivas divergentes y relegar información técnica menos “popular”, pero potencialmente más precisa y relevante para el análisis académico.
         .cajon.cajon.C01.color-primario.row.align-items-center.m-0.style___box_1.p-4(data-aos="zoom-in").espacio___movil_1
           .col-xl-auto(data-aos="fade-right")
             figure.d-none.d-xl-block
@@ -71,7 +71,7 @@
         p.mb-4 La principal ventaja de estos motores es el mayor rigor de los contenidos, ya que suelen incluir información validada por la comunidad académica. No obstante, algunos documentos pueden no estar disponibles en acceso abierto. Estos motores son especialmente recomendados para trabajos académicos, informes y procesos de investigación. 
       .col-lg-4.col-md-6.col-8.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/tema4/img-06.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema4/img-06.png', alt='')
 
     .row.align-items-center.mb-4(data-aos="zoom-in")
       .col-auto.pe-0(style="z-index:2")
@@ -79,7 +79,7 @@
           img(src='@/assets/curso/tema1/icono.svg', style="width: 45px" ,alt='').m-auto
       .col-lg-auto.col-9.titulo01(style="z-index:1")
         .p-1
-          h3.mb-0.ms-3 Lógica algorítmica. Popularidad vs. Relevancia académica
+          h3.mb-0.ms-3 Lógica algorítmica. Popularidad vs. relevancia académica
 
     p.mb-4 No todos los buscadores "piensan" igual. Es fundamental entender el criterio que prioriza los resultados, basado en lo siguiente:
 
@@ -90,14 +90,14 @@
             .row.justify-content-center.mb-3
               .col-lg-4.col-6
                 figure
-                  img(src='@/assets/curso/tema4/img-07.svg', alt='Imagen decorativa')
+                  img(src='@/assets/curso/tema4/img-07.svg', alt='')
             h4.text-center.mb-4 Algoritmos de popularidad y personalización (buscadores generales)
             p.mb-0 Motores como Google o Bing priorizan resultados basados en el número de clics, la ubicación geográfica y el historial del usuario. Esto permite una exploración rápida, pero aumenta el riesgo de ruido informativo y desinformación.
           .col-xl.col-md-6.tarjeta.color-secundario.p-4(style="background-color:#FED2C7")
             .row.justify-content-center.mb-3
               .col-lg-4.col-6
                 figure
-                  img(src='@/assets/curso/tema4/img-08.svg', alt='Imagen decorativa')
+                  img(src='@/assets/curso/tema4/img-08.svg', alt='')
             h4.text-center.mb-4 Algoritmos de relevancia y autoridad (buscadores académicos)
             p.mb-0 Motores como Google Scholar o Semantic Scholar priorizan la autoridad del autor, el número de citas recibidas por otros expertos y el prestigio de la institución editorial. Su fortaleza es el rigor técnico, aunque el acceso al texto completo puede estar restringido.
 
@@ -114,14 +114,30 @@
         p.mb-4 Además de los motores de búsqueda tradicionales, existen espacios especializados que concentran información académica y científica. Una base de datos bibliográfica es un sistema que reúne revistas y documentos académicos provenientes de múltiples instituciones, organizados mediante metadatos como autor, año de publicación y palabras clave, lo que permite realizar búsquedas más precisas y eficientes. Estas bases de datos resultan especialmente útiles para el desarrollo de revisiones bibliográficas y procesos de investigación formal.
         .cajon.cajon.C01.color-primario.p-4.mb-4
           p.mb-0 Por su parte, un repositorio institucional es una plataforma gestionada por una universidad u organización en la que se difunde su propia producción académica, como tesis, artículos, informes y otros recursos digitales. Aunque la calidad de los contenidos puede variar según la institución, los repositorios constituyen una fuente valiosa para consultar investigaciones aplicadas y trabajos contextualizados.
-        p A continuación, se ejemplifica un poco ambas fuentes de información en un breve comparativo:
       .col-lg-3.col-md-6.col-8.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/tema4/img-09.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema4/img-09.png', alt='')
     
-    .cajon.cajon.C04.p-5.mb-5
-      SlyderB(:datos="datosSlyder")
-
+    .row.justify-content-center.mb-4
+      .col-lg-6.order-lg-1.order-2
+        p.mb-4(style="color:#000") A continuación, se ejemplifica un poco ambas fuentes de información en un breve comparativo:
+        .row
+          .col-md-6    
+            .titulo.mb-4(data-aos="fade-left")
+              h4.text-center.mb-0 A. Base bibliográfica
+            p.mb-0 Alcance: multifuente.
+            p.mb-0 Calidad: suele ser más controlada.
+            p Uso ideal: revisión sistemática.
+          .col-md-6 
+            .titulo.mb-4(data-aos="fade-left")
+              h4.text-center.mb-0 B. Repositorio institucional
+            p.mb-0 Alcance: de una institución.
+            p.mb-0 Calidad: variable según políticas.
+            p Uso ideal: tesis, producción institucional.
+      
+      .col-lg-6.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4
+        img(src='@/assets/curso/tema4/img-10.png' alt="")(style="border-radius:15px")
+    
 </template>
 
 <script>

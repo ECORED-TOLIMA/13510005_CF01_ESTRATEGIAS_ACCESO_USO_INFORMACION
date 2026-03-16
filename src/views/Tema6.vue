@@ -5,19 +5,19 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 6
-      h1 Filtros de búsqueda y tipos de búsqueda, por palabra clave, por tema, por tipo
+      h1 Filtros de búsqueda
     
     .row.justify-content-center.mb-4
       .col-12(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/tema6/img-01.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema6/img-01.png', alt='')
 
     .row.justify-content-center.mb-4
       .col-1.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/tema3/img-13.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema3/img-13.svg', alt='')
       .col-11
-        p.mb-0(data-aos="fade-left") Cuando se requieren documentos formales, es recomendable filtrar los resultados por tipo de archivo mediante el uso del operador filetype. Este operador es una herramienta eficaz disponible en varios motores de búsqueda, como Google, Bing y DuckDuckGo, y permite restringir los resultados a archivos con una extensión específica, facilitando la localización de documentos académicos, informes técnicos o presentaciones. La sintaxis general es la siguiente:
+        p.mb-0(data-aos="fade-left") Cuando se requieren documentos formales, es recomendable filtrar los resultados por tipo de archivo mediante el uso del operador filetype: este operador es una herramienta eficaz disponible en varios motores de búsqueda, como Google, Bing y DuckDuckGo, y permite restringir los resultados a archivos con una extensión específica, facilitando la localización de documentos académicos, informes técnicos o presentaciones. La sintaxis general es la siguiente:
 
     p Términos de búsqueda filetype: extensión.
     p.mb-4 Donde:
@@ -25,19 +25,19 @@
     .row.justify-content-center.mb-4
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/tema6/img-02.svg' alt="Imagen decorativa")
+          img(src='@/assets/curso/tema6/img-02.svg' alt="")
           .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#FED2C7;")
             h4.text-center.mt-5(style="color:#12263F") Términos de búsqueda
-            p.text-center.mb-0(style="color:#12263F") Son las palabras clave o frases que estás buscando.
+            p.text-center.mb-0(style="color:#12263F") Son las palabras clave o frases que se están buscando.
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-left")
         .tarjeta-avatar
-          img(src='@/assets/curso/tema6/img-03.svg' alt="Imagen decorativa")
+          img(src='@/assets/curso/tema6/img-03.svg' alt="")
           .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#FED2C7;")
             h4.text-center.mt-5(style="color:#12263F") Filetype
             p.text-center.mb-0(style="color:#12263F") Es el operador propiamente dicho.
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/tema6/img-04.svg' alt="Imagen decorativa")
+          img(src='@/assets/curso/tema6/img-04.svg' alt="")
           .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#FED2C7;")
             h4.text-center.mt-5(style="color:#12263F") Extensión
             p.text-center.mb-0(style="color:#12263F") Corresponde a la extensión del tipo de archivo deseado (por ejemplo, pdf, doc, xls, ppt).
@@ -58,14 +58,14 @@
           .row.justify-content-center(numero="1" titulo="intitle")
             .col-12.order-lg-2.order-3
               p.mb-0 Restringe los resultados a páginas que tengan la palabra clave específicamente en el título de la pestaña del navegador. Es ideal para encontrar definiciones o temas centrales.
-          .row.justify-content-center(numero="2" titulo="Especialización")
+          .row.justify-content-center(numero="2" titulo="inurl")
             .col-12.order-lg-2.order-3
               p.mb-0 Busca la palabra clave dentro de la dirección URL del sitio. Muy útil para localizar directorios de archivos o repositorios específicos (ej. inurl:repositorio).
-          .row.justify-content-center(numero="3" titulo="Eficiencia")
+          .row.justify-content-center(numero="3" titulo="inanchor")
             .col-12.order-lg-2.order-3
               p.mb-0 Localiza términos en el texto de los enlaces que apuntan a una página. Refleja cómo otros sitios web categorizan esa fuente de información.
       .col-lg-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/tema6/img-05.png' alt="Imagen decorativa")
+        img(src='@/assets/curso/tema6/img-05.png' alt="")
 
     .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-7.order-2
@@ -83,12 +83,12 @@
         p Si se está investigando “informes sobre cambio climático”, la consulta de búsqueda sería: Informes sobre cambio climático filetype:pdf.
       .col-lg-5.col-md-6.col-8.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/tema6/img-06.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema6/img-06.svg', alt='')
 
     .row.justify-content-center.mb-4
       .col-1.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/tema3/img-13.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema3/img-13.svg', alt='')
       .col-9
         p.mb-0(data-aos="fade-left") Para procesos de análisis estratégico, no basta con documentos en PDF. Es necesario filtrar formatos que permitan el procesamiento masivo de datos, de la siguiente manera:
 
@@ -102,7 +102,7 @@
         ImagenInfografica.color-acento-botones.desktop
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema6/img-1-1v.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/tema6/img-1-1v.svg', alt='')
           .tarjeta.tarjeta--blanca.p-3(x="14.5%" y="22%" numero="+")(style="background-color:#FC9D83")
             p Ejemplo: encontrar páginas que contienen frase exacta cambio climático.
           .tarjeta.tarjeta--blanca.p-3(x="58%" y="22%" numero="+")(style="background-color:#FC9D83")
@@ -110,9 +110,9 @@
           .tarjeta.tarjeta--blanca.p-3(x="12.5%" y="60.5%" numero="+")(style="background-color:#FC9D83")
             p Ejemplo: excluir resultados relacionados con deforestación.
           .tarjeta.tarjeta--blanca.p-3(x="62.5%" y="60.5%" numero="+")(style="background-color:#FC9D83")
-            p Ejemplo: limitar resultados a jun tipo específico de archivo, como PDF, DOC, XLS, PPT.
+            p Ejemplo: limitar resultados a un tipo específico de archivo, como PDF, DOC, XLS, PPT.
         figure.movil
-          img(src='@/assets/curso/tema6/img-1-2v.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema6/img-1-2v.svg', alt='')
 
     Separador
 
@@ -122,11 +122,11 @@
     .row.justify-content-center
       .col-lg-4.col-md-6.col-8.mb-lg-0.mb-4
         figure
-          img.img-fluid(src="@/assets/curso/tema6/img-09.png" alt="Imagen decorativo")
+          img.img-fluid(src="@/assets/curso/tema6/img-09.png" alt="")
       .col-lg-8
         p.mb-4(data-aos="fade-left") La verdadera potencia del filtrado ocurre cuando se combinan operadores booleanos con filtros de metadatos y formato en una sola cadena lógica.
         .cajon.cajon.C01.color-primario.p-4.mb-4
-          p Ejemplo de ecuación experta: #[b (intitle:"inteligencia artificial") site:gov.co filetype:pdf -blog *] 
+          p Ejemplo de ecuación experta: #[b (intitle:"inteligencia artificial") site:gov.co filetype:pdf -blog] 
           p.mb-0 Explicación: busca documentos PDF oficiales del gobierno colombiano que traten centralmente sobre IA en su título, excluyendo bitácoras personales o artículos de opinión.
 
     Separador
@@ -183,7 +183,7 @@
                 i.lista-ul__vineta
                 | Turismo Colombia gasto filetype:xlsx site:gov.co
       .col-lg-6.col-md-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/tema6/img-11.png' alt="Imagen decorativa")
+        img(src='@/assets/curso/tema6/img-11.png' alt="")
 
 </template>
 

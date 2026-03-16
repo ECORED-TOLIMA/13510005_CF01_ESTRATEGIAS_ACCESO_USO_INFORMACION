@@ -97,7 +97,7 @@ export default {
         {
           id: 3,
           texto:
-            '¿Qué característica define a una fuente de información "Primaria"?',
+            '¿Qué característica define a una fuente de información "primaria"?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -308,7 +308,7 @@ export default {
         {
           id: 9,
           texto:
-            '¿Qué representa el criterio de "Precisión" en la evaluación de una fuente?',
+            '¿Qué representa el criterio de "precisión" en la evaluación de una fuente?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -342,7 +342,7 @@ export default {
         },
         {
           id: 10,
-          texto: '¿Qué es un "Activo de información"?',
+          texto: '¿Qué es un "activo de información"?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -375,7 +375,7 @@ export default {
         },
         {
           id: 11,
-          texto: 'La "Continuidad del negocio" se define como:',
+          texto: 'La "continuidad del negocio" se define como:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -441,14 +441,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Excelente! Identifica correctamente la norma ISO 22301 para la continuidad del negocio.',
+            '¡Excelente! Identifica la estrategia adecuada para una búsqueda académica eficiente y confiable al combinar lenguaje, operadores, filtros y evaluación de fuentes.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 13,
           texto:
-            'Un aprendiz necesita elaborar un informe académico con datos oficiales recientes sobre turismo en Colombia y en formato que permita análisis numérico. ¿Cuál sería la estrategia de búsqueda más adecuada?',
+            'Un aprendiz necesita elaborar un informe académico con datos oficiales recientes sobre turismo en Colombia y en un formato que permita análisis numérico. ¿Cuál sería la estrategia de búsqueda más adecuada?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -512,7 +512,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Comprendes que el lenguaje controlado usa términos estandarizados para mejorar la búsqueda.',
+            '¡Correcto! Comprende que el lenguaje controlado usa términos estandarizados para mejorar la búsqueda.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -610,7 +610,7 @@ export default {
             {
               id: 'd',
               texto:
-                'Para buscar opiniones personales en <em>blogs</em> de tendencias',
+                'Para buscar opiniones personales en <em>blogs</em> de tendencias.',
               esCorrecta: false,
             },
           ],
