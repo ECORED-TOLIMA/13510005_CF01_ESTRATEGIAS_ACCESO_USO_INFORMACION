@@ -17,7 +17,7 @@
                 figure
                   img(src="@/assets/curso/tema2/img-02.svg", data-aos="zoom-in")
               .col-lg.mb-3.mb-lg-0
-                h4(data-aos="fade-left").mb-4(style="color:#FF955E") Pódcast
+                h4(data-aos="fade-left").mb-4(style="color:#FF955E") Fuentes de información
                 p.text-white Lo invitamos a escuchar el siguiente pódcast:
         
                 TarjetaAudio.color-secundario.bg-color-white.mb-3(
