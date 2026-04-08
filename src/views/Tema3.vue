@@ -33,7 +33,7 @@
               p.mb-0 Los motores modernos intentan comprender la intención y el contexto de la consulta. No buscar solo la palabra, sino el concepto relacionado.
           .row.justify-content-center(numero="3" titulo="Ejemplo")
             .col-12.order-lg-2.order-3
-              p.mb-0 Si se busca "mitigación de CO²", el motor semántico traerá resultados sobre "secuestro de carbono", aunque la palabra exacta no esté en la consulta.
+              p.mb-0 Si se busca "mitigación de CO₂", el motor semántico traerá resultados sobre "secuestro de carbono", aunque la palabra exacta no esté en la consulta.
 
     p.mb-4 Algunas estrategias sencillas y efectivas son:
 
