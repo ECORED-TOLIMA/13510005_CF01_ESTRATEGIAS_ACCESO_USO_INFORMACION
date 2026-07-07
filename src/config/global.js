@@ -113,7 +113,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA1_13510000_DU.pdf',
+        download: 'downloads/CFA1_13510005_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -211,8 +211,8 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Responsable Ecosistema de Recursos Educativos Digitales (RED)',
-          centro: 'Centro Agroturístico - Regional Santander',
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
+          centro: 'Dirección General',
         },
         {
           nombre: 'Diana Rocío Possos Beltrán',
